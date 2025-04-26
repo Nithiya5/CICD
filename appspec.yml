@@ -6,6 +6,6 @@ files:
     destination: /var/www/html
 hooks:
   AfterInstall:
-    - location: deploy-agents/install.sh
+    - location: deploy-scipts/install.sh
       timeout: 180
       runas: root
